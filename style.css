@@ -466,7 +466,6 @@ h2:hover {
 
 .skills-down {
     animation: down-animation 15s linear infinite;
-    /* Adjust the speed here */
 }
 
 
@@ -533,7 +532,6 @@ h2:hover {
 
 
 /* project section code */
-
 .projects-section {
     padding: 50px 10%;
     background-color: #121212;
