@@ -438,7 +438,16 @@ h2:hover {
 
 }
 
-/* Animations */
+.skills-top {
+    animation: top-animation 15s linear infinite;
+    margin-bottom: 10rem;
+}
+
+.skills-down {
+    animation: down-animation 15s linear infinite;
+}
+
+
 @keyframes top-animation {
     0% {
         transform: translateX(0);
@@ -457,15 +466,6 @@ h2:hover {
     100% {
         transform: translateX(0);
     }
-}
-
-.skills-top {
-    animation: top-animation 15s linear infinite;
-    margin-bottom: 10rem;
-}
-
-.skills-down {
-    animation: down-animation 15s linear infinite;
 }
 
 
